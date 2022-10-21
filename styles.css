@@ -2,12 +2,12 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  margin: 0;
-  padding: 0;
+  margin: 1px;
+  padding: 2px;
 }
 
 body {
-  background: linear-gradient(to right, #233329, #41b883);
+  background: linear-gradient(to right, #233329, rgb(62, 62, 192));
 }
 
 .grid-container {
@@ -39,6 +39,7 @@ body {
 
 .span-two {
   grid-column: span 2;
+  background: #41b88375;
 }
 
 .grid-container > .output {
